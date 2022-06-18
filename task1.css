@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(notebook.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#heading{
+    font-size: 40px;
+    color: rgb(48, 24, 60);
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.task{
+    margin-left: 450px;
+    background-color: white;
+    width: 34%;
+    height: 280px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    justify-content: space-around;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#taskinp{
+    margin-left: 25px;
+    height: 50px;
+    width: 300px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 1px;
+    margin-left: 10px;
+    width:80px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(8, 8, 45);
+}
+.newtask{
+    margin-left: 440px;
+    width: 35%;
+    height: auto;
+    margin-top: 15px;
+    padding: 10px 10px; 
+}
+#list{
+    list-style-type: none;
+}
+#list li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    font-family: cursive;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    padding: 10px 10px 10px 10px; 
+}
+#list li a{
+    float: right;
+    cursor: pointer;
+    margin-left: 15px;
+    color: black;
+    margin-top: 5px;
+}
+#Thead{
+    font-size: 30px;
+    color: rgb(2, 2, 21);
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family:cursive;
+}
+.intro{
+    color: crimson;
+    font-size: 25px;
+    font-family: 'Pacifico';
+    margin-bottom: 20px;
+    text-align: center;
+}
